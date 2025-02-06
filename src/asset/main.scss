@@ -1,0 +1,108 @@
+
+
+.book-box{
+    
+    border: 1px solid rgb(155, 148, 148);
+    padding: 30px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    .book-image{
+        width: 150px;
+        height: 200px;
+    }
+    .book-box-left{
+        width: 200px;
+    }
+    .book-box-right{
+        width: 450px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+          .price-add{
+            display: flex;
+            width: 300px;
+            justify-content: space-between;
+          }
+           
+    }
+    .book-title{
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    .book-price{
+        font-weight: bold;
+    }
+}
+.main-box{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-container{
+   
+    .container-left{
+        img{
+            border-radius: 20px 0 0 20px;
+        }
+    }
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 1000px;
+   display: flex;
+   height: 500px;
+   .container-right{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .information{
+        padding: 20px;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        input{
+           margin-bottom: 10px;
+        }
+        
+    }
+   }
+}
+.button-container{
+    display: flex;
+    
+
+    button{
+        cursor: pointer;
+       height: 50px;
+       margin: 5px;
+       background-color: white;
+       border:none;
+   font-size: 1.1rem;
+    }
+    .on{
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid black;
+        width: 50px;
+        border-radius: 5px;
+    }
+    .off{
+        width: 50px;
+
+    }
+}
